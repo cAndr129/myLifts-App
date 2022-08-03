@@ -14,6 +14,16 @@
 		4714F130289593A10050A31E /* myLiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F12F289593A10050A31E /* myLiftsTests.swift */; };
 		4714F13A289593A10050A31E /* myLiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F139289593A10050A31E /* myLiftsUITests.swift */; };
 		4714F13C289593A10050A31E /* myLiftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F13B289593A10050A31E /* myLiftsUITestsLaunchTests.swift */; };
+		4714F14928959F7C0050A31E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14828959F7C0050A31E /* DetailView.swift */; };
+		4714F14B28959F950050A31E /* LiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14A28959F950050A31E /* LiftView.swift */; };
+		4714F14D28959FA80050A31E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14C28959FA80050A31E /* MainView.swift */; };
+		4714F15028959FD20050A31E /* LineChartCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14F28959FD20050A31E /* LineChartCircleView.swift */; };
+		4714F15228959FEF0050A31E /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F15128959FEF0050A31E /* LineChartView.swift */; };
+		4714F15428959FFF0050A31E /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F15328959FFF0050A31E /* LineView.swift */; };
+		4714F1562895A0180050A31E /* LiftChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F1552895A0180050A31E /* LiftChartView.swift */; };
+		4714F158289628B20050A31E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F157289628B10050A31E /* DetailEditView.swift */; };
+		478E3669289815F200353ABD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E3668289815F200353ABD /* ErrorView.swift */; };
+		478E366B2898169C00353ABD /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E366A2898169C00353ABD /* Lift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		4714F135289593A10050A31E /* myLiftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myLiftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4714F139289593A10050A31E /* myLiftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLiftsUITests.swift; sourceTree = "<group>"; };
 		4714F13B289593A10050A31E /* myLiftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLiftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4714F14828959F7C0050A31E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4714F14A28959F950050A31E /* LiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftView.swift; sourceTree = "<group>"; };
+		4714F14C28959FA80050A31E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4714F14F28959FD20050A31E /* LineChartCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartCircleView.swift; sourceTree = "<group>"; };
+		4714F15128959FEF0050A31E /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		4714F15328959FFF0050A31E /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		4714F1552895A0180050A31E /* LiftChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftChartView.swift; sourceTree = "<group>"; };
+		4714F157289628B10050A31E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		478E3668289815F200353ABD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		478E366A2898169C00353ABD /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +114,17 @@
 		4714F11D2895939C0050A31E /* myLifts */ = {
 			isa = PBXGroup;
 			children = (
+				4714F14E28959FC30050A31E /* LineChart */,
 				4714F11E2895939C0050A31E /* myLiftsApp.swift */,
 				4714F1202895939C0050A31E /* ContentView.swift */,
 				4714F122289593A00050A31E /* Assets.xcassets */,
 				4714F124289593A00050A31E /* Preview Content */,
+				4714F14828959F7C0050A31E /* DetailView.swift */,
+				4714F14A28959F950050A31E /* LiftView.swift */,
+				478E366A2898169C00353ABD /* Lift.swift */,
+				4714F14C28959FA80050A31E /* MainView.swift */,
+				4714F157289628B10050A31E /* DetailEditView.swift */,
+				478E3668289815F200353ABD /* ErrorView.swift */,
 			);
 			path = myLifts;
 			sourceTree = "<group>";
@@ -125,6 +152,17 @@
 				4714F13B289593A10050A31E /* myLiftsUITestsLaunchTests.swift */,
 			);
 			path = myLiftsUITests;
+			sourceTree = "<group>";
+		};
+		4714F14E28959FC30050A31E /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				4714F14F28959FD20050A31E /* LineChartCircleView.swift */,
+				4714F15128959FEF0050A31E /* LineChartView.swift */,
+				4714F15328959FFF0050A31E /* LineView.swift */,
+				4714F1552895A0180050A31E /* LiftChartView.swift */,
+			);
+			path = LineChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +295,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478E366B2898169C00353ABD /* Lift.swift in Sources */,
 				4714F1212895939C0050A31E /* ContentView.swift in Sources */,
+				4714F15028959FD20050A31E /* LineChartCircleView.swift in Sources */,
+				4714F14928959F7C0050A31E /* DetailView.swift in Sources */,
+				4714F15228959FEF0050A31E /* LineChartView.swift in Sources */,
+				4714F1562895A0180050A31E /* LiftChartView.swift in Sources */,
+				4714F15428959FFF0050A31E /* LineView.swift in Sources */,
 				4714F11F2895939C0050A31E /* myLiftsApp.swift in Sources */,
+				4714F158289628B20050A31E /* DetailEditView.swift in Sources */,
+				4714F14D28959FA80050A31E /* MainView.swift in Sources */,
+				4714F14B28959F950050A31E /* LiftView.swift in Sources */,
+				478E3669289815F200353ABD /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
