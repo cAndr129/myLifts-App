@@ -32,12 +32,12 @@ struct LiftView: View {
                     .font(.caption)
             }
             HStack {
-                Text("\(lift.liftHistory[lift.liftHistory.count-1]) lbs.")
+                Text("\((Int)(lift.loggedLifts[lift.loggedLifts.count-1])) lbs.")
                 Spacer()
                 Text("\(lift.goalWeight) lbs.")
             }
         }
-        .background(.red)
+        .foregroundColor(lift.theme.accentColor)
     }
 }
 
@@ -45,6 +45,7 @@ struct LiftView_Previews: PreviewProvider {
     static var lift = Lift.sampleLifts[0]
     static var previews: some View {
         LiftView(lift: lift)
+            .background(lift.theme.mainColor)
             .previewLayout(.fixed(width: 400, height: 100))
     }
 }

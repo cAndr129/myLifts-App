@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470CA0B2289C53FA00E782AF /* RecordLiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470CA0B1289C53FA00E782AF /* RecordLiftView.swift */; };
+		470CA0BA289DD7DE00E782AF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 470CA0B9289DD7DE00E782AF /* SwiftUICharts */; };
 		4714F11F2895939C0050A31E /* myLiftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F11E2895939C0050A31E /* myLiftsApp.swift */; };
 		4714F1212895939C0050A31E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F1202895939C0050A31E /* ContentView.swift */; };
 		4714F123289593A00050A31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4714F122289593A00050A31E /* Assets.xcassets */; };
@@ -17,13 +19,13 @@
 		4714F14928959F7C0050A31E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14828959F7C0050A31E /* DetailView.swift */; };
 		4714F14B28959F950050A31E /* LiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14A28959F950050A31E /* LiftView.swift */; };
 		4714F14D28959FA80050A31E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14C28959FA80050A31E /* MainView.swift */; };
-		4714F15028959FD20050A31E /* LineChartCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F14F28959FD20050A31E /* LineChartCircleView.swift */; };
-		4714F15228959FEF0050A31E /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F15128959FEF0050A31E /* LineChartView.swift */; };
-		4714F15428959FFF0050A31E /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F15328959FFF0050A31E /* LineView.swift */; };
-		4714F1562895A0180050A31E /* LiftChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F1552895A0180050A31E /* LiftChartView.swift */; };
 		4714F158289628B20050A31E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714F157289628B10050A31E /* DetailEditView.swift */; };
+		4733563C28A1C6400032C570 /* LiftStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733563B28A1C6400032C570 /* LiftStore.swift */; };
 		478E3669289815F200353ABD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E3668289815F200353ABD /* ErrorView.swift */; };
 		478E366B2898169C00353ABD /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E366A2898169C00353ABD /* Lift.swift */; };
+		478E366D289AC8C900353ABD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E366C289AC8C900353ABD /* Theme.swift */; };
+		478E366F289AC91600353ABD /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E366E289AC91600353ABD /* ThemePicker.swift */; };
+		478E3671289AC92F00353ABD /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E3670289AC92F00353ABD /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		470CA0B1289C53FA00E782AF /* RecordLiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLiftView.swift; sourceTree = "<group>"; };
 		4714F11B2895939C0050A31E /* myLifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4714F11E2895939C0050A31E /* myLiftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLiftsApp.swift; sourceTree = "<group>"; };
 		4714F1202895939C0050A31E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,13 +60,13 @@
 		4714F14828959F7C0050A31E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		4714F14A28959F950050A31E /* LiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftView.swift; sourceTree = "<group>"; };
 		4714F14C28959FA80050A31E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		4714F14F28959FD20050A31E /* LineChartCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartCircleView.swift; sourceTree = "<group>"; };
-		4714F15128959FEF0050A31E /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
-		4714F15328959FFF0050A31E /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
-		4714F1552895A0180050A31E /* LiftChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftChartView.swift; sourceTree = "<group>"; };
 		4714F157289628B10050A31E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		4733563B28A1C6400032C570 /* LiftStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftStore.swift; sourceTree = "<group>"; };
 		478E3668289815F200353ABD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		478E366A2898169C00353ABD /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
+		478E366C289AC8C900353ABD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		478E366E289AC91600353ABD /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		478E3670289AC92F00353ABD /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470CA0BA289DD7DE00E782AF /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +118,6 @@
 		4714F11D2895939C0050A31E /* myLifts */ = {
 			isa = PBXGroup;
 			children = (
-				4714F14E28959FC30050A31E /* LineChart */,
 				4714F11E2895939C0050A31E /* myLiftsApp.swift */,
 				4714F1202895939C0050A31E /* ContentView.swift */,
 				4714F122289593A00050A31E /* Assets.xcassets */,
@@ -125,6 +128,11 @@
 				4714F14C28959FA80050A31E /* MainView.swift */,
 				4714F157289628B10050A31E /* DetailEditView.swift */,
 				478E3668289815F200353ABD /* ErrorView.swift */,
+				478E366C289AC8C900353ABD /* Theme.swift */,
+				478E366E289AC91600353ABD /* ThemePicker.swift */,
+				478E3670289AC92F00353ABD /* ThemeView.swift */,
+				470CA0B1289C53FA00E782AF /* RecordLiftView.swift */,
+				4733563B28A1C6400032C570 /* LiftStore.swift */,
 			);
 			path = myLifts;
 			sourceTree = "<group>";
@@ -154,17 +162,6 @@
 			path = myLiftsUITests;
 			sourceTree = "<group>";
 		};
-		4714F14E28959FC30050A31E /* LineChart */ = {
-			isa = PBXGroup;
-			children = (
-				4714F14F28959FD20050A31E /* LineChartCircleView.swift */,
-				4714F15128959FEF0050A31E /* LineChartView.swift */,
-				4714F15328959FFF0050A31E /* LineView.swift */,
-				4714F1552895A0180050A31E /* LiftChartView.swift */,
-			);
-			path = LineChart;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +178,9 @@
 			dependencies = (
 			);
 			name = myLifts;
+			packageProductDependencies = (
+				470CA0B9289DD7DE00E782AF /* SwiftUICharts */,
+			);
 			productName = myLifts;
 			productReference = 4714F11B2895939C0050A31E /* myLifts.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 4714F1122895939C0050A31E;
+			packageReferences = (
+				470CA0B8289DD7DE00E782AF /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 4714F11C2895939C0050A31E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -295,17 +298,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4733563C28A1C6400032C570 /* LiftStore.swift in Sources */,
 				478E366B2898169C00353ABD /* Lift.swift in Sources */,
 				4714F1212895939C0050A31E /* ContentView.swift in Sources */,
-				4714F15028959FD20050A31E /* LineChartCircleView.swift in Sources */,
 				4714F14928959F7C0050A31E /* DetailView.swift in Sources */,
-				4714F15228959FEF0050A31E /* LineChartView.swift in Sources */,
-				4714F1562895A0180050A31E /* LiftChartView.swift in Sources */,
-				4714F15428959FFF0050A31E /* LineView.swift in Sources */,
+				478E366D289AC8C900353ABD /* Theme.swift in Sources */,
 				4714F11F2895939C0050A31E /* myLiftsApp.swift in Sources */,
+				478E366F289AC91600353ABD /* ThemePicker.swift in Sources */,
+				470CA0B2289C53FA00E782AF /* RecordLiftView.swift in Sources */,
 				4714F158289628B20050A31E /* DetailEditView.swift in Sources */,
 				4714F14D28959FA80050A31E /* MainView.swift in Sources */,
 				4714F14B28959F950050A31E /* LiftView.swift in Sources */,
+				478E3671289AC92F00353ABD /* ThemeView.swift in Sources */,
 				478E3669289815F200353ABD /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myLifts/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VDF4XS26Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -493,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myLifts/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VDF4XS26Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -625,6 +631,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		470CA0B8289DD7DE00E782AF /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		470CA0B9289DD7DE00E782AF /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 470CA0B8289DD7DE00E782AF /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4714F1132895939C0050A31E /* Project object */;
 }

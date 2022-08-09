@@ -6,47 +6,55 @@
 //
 
 import SwiftUI
+import SwiftUICharts
 
 struct DetailView: View {
+    @Binding var lift: Lift
+    @State private var oneRepMax: Double = 0
+    @State private var data = Lift.Data()
     @State private var isPresentingEditView = false
+    @State private var isPresentingRecordLiftView = false
+    
+    
     
     var body: some View {
         List {
-            VStack {
-                    LiftChartView()
-                        HStack {
-                            VStack {
-                                Text("Current Lift")
-                                    .font(.caption)
-                                Text("180 lbs.")
-                                //replace with current lift info later
+            LineChartView(data: lift.loggedLifts, title: "\(lift.name) data")
+            Section {
+                VStack {
+                            HStack {
+                                VStack {
+                                    Text("Current Lift")
+                                        .font(.caption)
+                                    Text("\((Int)(lift.loggedLifts[lift.loggedLifts.count-1])) lbs.")                                }
+                                Spacer()
+                                VStack{
+                                    Text("Goal Lift")
+                                        .font(.caption)
+                                    Text("\(lift.goalWeight) lbs.")
+                                }
                             }
-                            Spacer()
-                            VStack{
-                                Text("Goal Lift")
-                                    .font(.caption)
-                                Text("225 lbs.")
-                                //replace with goal lift info later
-                            }
-                        }
+                }
             }
         }
-        .navigationTitle("Bench")
+        .navigationTitle(lift.name)
         .toolbar{
             ToolbarItem(){
                 Button("Edit"){
-                    //edit button action
+                    isPresentingEditView = true
+                    data = lift.data
                 }
             }
             ToolbarItem(placement: .bottomBar){
                 Button("Record a Lift"){
-                    //record button action
+                    isPresentingRecordLiftView = true
+                    data = lift.data
                 }
             }
         }
         .sheet(isPresented: $isPresentingEditView){
             NavigationView{
-                DetailEditView()
+                DetailEditView(data: $data)
                     .toolbar{
                         ToolbarItem(placement: .cancellationAction){
                             Button("Cancel"){
@@ -56,7 +64,25 @@ struct DetailView: View {
                         ToolbarItem(placement: .confirmationAction){
                             Button("Done"){
                                 isPresentingEditView = false
-                                //create function to update data 
+                                lift.update(from: data)
+                            }
+                        }
+                    }
+            }
+        }
+        .sheet(isPresented: $isPresentingRecordLiftView){
+            NavigationView{
+                RecordLiftView(lift: $lift, oneRepMax: $oneRepMax)
+                    .toolbar{
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Dismiss") {
+                                isPresentingRecordLiftView = false
+                            }
+                        }
+                        ToolbarItem(placement: .confirmationAction){
+                            Button("Record"){
+                                isPresentingRecordLiftView = false
+                                lift.loggedLifts.append(oneRepMax)
                             }
                         }
                     }
@@ -67,7 +93,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView()
+            DetailView(lift: .constant(Lift.sampleLifts[0]))
         }
     }
 }
