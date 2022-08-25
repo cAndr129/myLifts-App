@@ -4,9 +4,8 @@ This is a simple iOS app that allows the user to keep track of the major lifts t
 
 How to install:
   Seeing as this isnt a published iPhone app, one will have to dowload a copy of the app by opening xcode and having it download it via wired connection 
-  to the desired iPhone for a 7 day trial. Seeing as this app is for practice developing software, there are no plans to publish the app at any time in 
-  the future. :(
-
+  to the desired iPhone for a 7 day trial. 
+  
 Main View:
   When first opening the app, the user is presented with the main screen that shows all their stored lifts as cards. To add a new lift,
   the user should press the plus button in the top right corner of the screen.(See New Lifts) For each new lift that is added, the user
